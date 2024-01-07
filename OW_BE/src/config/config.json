@@ -1,11 +1,11 @@
 {
   "development": {
     "username": "root",
-    "password": "12345678",
-    "database": "oneweedshop",
+    "password": null,
+    "database": "shop",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "port":"3306"
+    "port":"3307"
   },
   "test": {
     "username": "root",

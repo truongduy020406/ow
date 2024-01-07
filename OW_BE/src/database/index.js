@@ -1,7 +1,7 @@
 const { Sequelize } = require('sequelize')
 const mysql2 = require('mysql2')
 // Option 3: Passing parameters separately (other dialects)
-const sequelize = new Sequelize('oneweedshop', 'root', 'anhkp123', {
+const sequelize = new Sequelize('shop', 'root', 'root', {
   host: '127.0.0.1',
   port: '3307',
   dialect: 'mysql',
@@ -17,7 +17,7 @@ const pool = mysql2.createPool({
   host: '127.0.0.1',
   user: 'root',
   password: 'root',
-  database: 'oneweedshop',
+  database: 'shop',
 })
 
 const poolData = pool.promise()
